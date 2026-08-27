@@ -1,0 +1,29 @@
+.stats {
+  width: 100%;
+  background-color: #d83d08;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 45px 30px;
+  box-sizing: border-box;
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+}
+
+.stat-item h2 {
+  margin: 0 0 12px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stat-item p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
