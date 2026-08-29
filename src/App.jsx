@@ -1,6 +1,6 @@
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Navbar from "./components/navbar/navbar";
+import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Stats from "./components/stats/Stats";
 import About from "./components/about/About";
