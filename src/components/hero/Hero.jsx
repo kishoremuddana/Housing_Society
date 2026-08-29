@@ -7,7 +7,7 @@ function Hero() {
             <div className="hero-content">
                 <img src={heroImage} alt="Hero" className="hero-image" />
             </div>
-            <a href="#" className="enquire-button">ENQUIRE NOW</a>
+            <a href="#contact" className="enquire-button">ENQUIRE NOW</a>
         </section>
     )
 }

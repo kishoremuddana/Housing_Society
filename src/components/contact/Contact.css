@@ -1,0 +1,736 @@
+/* ========================================
+   CONTACT SECTION
+======================================== */
+
+.contact {
+  width: 100%;
+  background-color: #481707;
+
+  padding: 50px 35px;
+
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 80px;
+
+  color: white;
+}
+
+
+/* ========================================
+   LEFT SIDE
+======================================== */
+
+.contact-left {
+  padding-right: 20px;
+}
+
+
+/* LOGO */
+
+.contact-logo {
+  width: 190px;
+  height: auto;
+
+  display: block;
+
+  margin-bottom: 20px;
+}
+
+
+/* ABOUT HEADING */
+
+.contact-left h2 {
+  margin: 0 0 20px;
+
+  color: #ff9800;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 19px;
+
+  font-weight: 800;
+}
+
+
+/* ABOUT TEXT */
+
+.contact-left p {
+  margin: 0;
+
+  color: rgba(255, 255, 255, 0.801);
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+}
+
+
+/* ADDRESS */
+
+.address {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 5px;
+
+  margin-top: 50px;
+  
+
+  color: rgba(255, 255, 255, 0.82);
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 14px;
+
+  line-height: 1.5;
+}
+
+
+/* LOCATION ICON */
+
+.location-icon {
+  font-size: 25px;
+
+  line-height: 1;
+
+  color: #ff9800;
+}
+
+
+/* ========================================
+   RIGHT SIDE
+======================================== */
+
+.contact-right {
+  width: 100%;
+}
+
+
+/* GET IN TOUCH */
+
+.contact-right h2 {
+  margin: 0 0 25px;
+
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 19px;
+
+  font-weight: 800;
+}
+
+
+/* DESCRIPTION */
+
+.contact-description {
+  margin: 0 0 30px;
+
+  color: rgba(255, 255, 255, 0.829);
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+}
+
+
+/* CONTACT HEADING */
+
+.contact-right h3 {
+  margin: 0 0 35px;
+
+  color: #ff9800;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 20px;
+
+  font-weight: 800;
+}
+
+
+/* ========================================
+   FORM
+======================================== */
+
+.contact-right form {
+  width: 100%;
+}
+
+
+/* NORMAL INPUTS */
+
+.contact-right input[type="text"],
+.contact-right input[type="email"] {
+  width: 100%;
+
+  height: 40px;
+
+  box-sizing: border-box;
+
+  padding: 0 10px;
+
+  margin-bottom: 15px;
+
+  border: none;
+
+  outline: none;
+
+  border-radius: 7px;
+
+  background-color: #ffe0bd;
+
+  color: #333;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 15px;
+}
+
+
+/* PLACEHOLDER */
+
+.contact-right input::placeholder {
+  color: #777;
+}
+
+
+/* ========================================
+   PHONE NUMBER
+======================================== */
+
+.phone-wrapper {
+  width: 100%;
+
+  height: 40px;
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  box-sizing: border-box;
+
+  margin-bottom: 15px;
+
+  border-radius: 10px;
+
+  background-color: #ffe0bd;
+}
+
+
+/* COUNTRY BUTTON */
+
+.country-button {
+  width: 60px;
+
+  height: 40px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 5px;
+
+  padding: 0;
+
+  border: none;
+
+  border-radius: 10px 0 0 10px;
+
+  background-color: white;
+
+  cursor: pointer;
+}
+
+
+/* SELECTED FLAG */
+
+.country-button .fi {
+  width: 24px;
+
+  height: 18px;
+
+  display: inline-block;
+}
+
+
+/* DROPDOWN ARROW */
+
+.arrow {
+  color: #555;
+
+  font-size: 12px;
+
+  line-height: 1;
+}
+
+
+/* COUNTRY CODE */
+
+.country-code {
+  height: 40px;
+
+  display: flex;
+
+  align-items: center;
+
+  padding: 0 10px;
+
+  background-color: #ffe0bd;
+
+  color: #222;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 17px;
+
+  white-space: nowrap;
+}
+
+
+/* PHONE INPUT */
+
+.phone-number {
+  flex: 1;
+
+  width: 100%;
+
+  height: 58px;
+
+  min-width: 0;
+
+  box-sizing: border-box;
+
+  padding: 0 15px !important;
+
+  margin: 0 !important;
+
+  border: none !important;
+
+  outline: none !important;
+
+  background-color: transparent !important;
+
+  color: #333;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 15px;
+}
+
+
+/* PHONE PLACEHOLDER */
+
+.phone-number::placeholder {
+  color: #777;
+}
+
+
+/* ========================================
+   COUNTRY DROPDOWN
+======================================== */
+
+.country-list {
+  position: absolute;
+
+  top: 63px;
+
+  left: 0;
+
+  width: 330px;
+
+  max-height: 170px;
+
+  overflow-y: auto;
+
+  box-sizing: border-box;
+
+  background-color: white;
+
+  border-radius: 5px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+
+  z-index: 1000;
+}
+
+
+/* COUNTRY OPTION */
+
+.country-option {
+  width: 100%;
+
+  min-height: 45px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 10px 14px;
+
+  background-color: white;
+
+  color: #222;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 15px;
+
+  cursor: pointer;
+}
+
+
+/* HOVER */
+
+.country-option:hover {
+  background-color: #f1f1f1;
+}
+
+
+/* FLAG INSIDE LIST */
+
+.country-option .fi {
+  width: 22px;
+
+  height: 18px;
+
+  display: inline-block;
+
+  flex-shrink: 0;
+}
+
+
+/* COUNTRY NAME */
+
+.country-name {
+  flex: 1;
+
+  white-space: nowrap;
+}
+
+
+/* COUNTRY CODE IN LIST */
+
+.country-code-list {
+  color: #777;
+
+  font-size: 15px;
+
+  white-space: nowrap;
+}
+
+
+/* ========================================
+   COUNTRY LIST SCROLLBAR
+======================================== */
+
+.country-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.country-list::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.country-list::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+
+  border-radius: 10px;
+}
+
+.country-list::-webkit-scrollbar-thumb:hover {
+  background-color: #888;
+}
+
+
+
+
+
+/* ========================================
+   TEXTAREA
+======================================== */
+
+.contact-right textarea {
+  width: 100%;
+
+  height: 100px;
+
+  box-sizing: border-box;
+
+  padding: 18px 15px;
+
+  margin-bottom: 15px;
+
+  border: none;
+
+  outline: none;
+
+  border-radius: 10px;
+
+  background-color: #ffe0bd;
+
+  color: #333;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 16px;
+
+  resize: vertical;
+}
+
+
+.contact-right textarea::placeholder {
+  color: #777;
+}
+
+
+/* ========================================
+   CHECKBOX
+======================================== */
+
+.checkbox-container {
+  width: 100%;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 10px;
+
+  box-sizing: border-box;
+
+  margin-bottom: 25px;
+
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+}
+
+
+/* CHECKBOX */
+
+.checkbox-container input[type="checkbox"] {
+  width: 13px;
+
+  height: 16px;
+
+  margin: 3px 0 0 0;
+
+  flex-shrink: 0;
+
+  cursor: pointer;
+}
+
+
+/* ========================================
+   SUBMIT BUTTON
+======================================== */
+
+.submit-button {
+  width: 200px;
+
+  height: 44px;
+
+  padding: 0;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background-color: #ff4b00;
+
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 16px;
+
+
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease;
+}
+
+
+.submit-button:hover {
+  background-color: #e74300;
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 900px) {
+
+  .contact {
+    grid-template-columns: 1fr;
+
+    gap: 60px;
+
+    padding: 60px 35px;
+  }
+
+  .contact-left {
+    padding-right: 0;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .contact {
+    padding: 45px 20px;
+  }
+
+  .contact-logo {
+    width: 220px;
+  }
+
+  .contact-left h2,
+  .contact-right h2,
+  .contact-right h3 {
+    font-size: 26px;
+  }
+
+  .contact-left p {
+    font-size: 17px;
+  }
+
+  .contact-description {
+    font-size: 17px;
+  }
+
+  .country-list {
+    width: 300px;
+
+    max-width: calc(100vw - 40px);
+  }
+
+  .submit-button {
+    width: 200px;
+  }
+
+}
+
+/* ============================= */
+/* TABLET RESPONSIVENESS */
+/* ============================= */
+
+@media (max-width: 900px) {
+
+  .contact {
+    flex-direction: column;
+    padding: 40px 30px;
+    gap: 40px;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%;
+  }
+
+  .contact-logo {
+    width: 150px;
+  }
+
+  .contact-left h2,
+  .contact-right h2 {
+    font-size: 26px;
+  }
+
+  .contact-left p,
+  .contact-description {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+}
+
+
+/* ============================= */
+/* MOBILE RESPONSIVENESS */
+/* ============================= */
+
+@media (max-width: 600px) {
+
+  .contact {
+    padding: 30px 20px;
+    gap: 35px;
+  }
+
+  .contact-logo {
+    width: 130px;
+  }
+
+  .contact-left h2,
+  .contact-right h2 {
+    font-size: 23px;
+  }
+
+  .contact-left p,
+  .contact-description {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .address {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .contact-right input[type="text"],
+  .contact-right input[type="email"] {
+    height: 46px;
+    font-size: 15px;
+  }
+
+  .phone-wrapper {
+    height: 46px;
+  }
+
+  .phone-number {
+    font-size: 15px;
+  }
+
+  .contact-right textarea {
+    min-height: 120px;
+    font-size: 15px;
+  }
+
+  .checkbox-container {
+    font-size: 12px;
+    line-height: 1.5;
+    align-items: flex-start;
+  }
+
+  .submit-button {
+    width: 100%;
+    height: 48px;
+  }
+
+}
