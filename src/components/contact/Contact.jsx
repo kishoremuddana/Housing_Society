@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { toast } from "react-toastify";
 import "flag-icons/css/flag-icons.min.css";
 import "./Contact.css";
-import logo from "../../assets/Contact_logo.png";
+import logo from "../../assets/contact_logo.png";
 
 function Contact() {
 
